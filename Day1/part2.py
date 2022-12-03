@@ -1,4 +1,4 @@
-input = open("c:\\Users\\fatim\\Documents\\repos\\advent of code\\Day 1\\input.txt", "r")
+input = open("c:\\Users\\fatim\\Documents\\repos\\advent of code\\Day1\\input.txt", "r")
 sum = 0
 calList = []
 for line in input:
