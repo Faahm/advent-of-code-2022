@@ -1,5 +1,5 @@
 from string import ascii_letters
-input =[line.strip() for line in open("input.txt", "r")]
+input = [line.strip() for line in open("input.txt", "r")]
 sum = 0
 for i in range(0,len(input),3):
     compartment1 = input[i]
