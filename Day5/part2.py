@@ -1,3 +1,4 @@
+# Credits to https://github.com/HellFireInfernoStorm
 with open('input.txt') as f:
     data = f.read().splitlines()
 
@@ -8,7 +9,7 @@ for i in range(7,-1,-1):
         c = data[i][j*4-3]
         if c != ' ':
             stacks[j].append(c)
-
+# End of Credits
 for line in data[10:]:
     instructions = line.split()
     qty = int(instructions[1])
